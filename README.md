@@ -28,10 +28,10 @@ This repository has multiple branches that relate to Debian versions.
 
 ### Obsolete versions 
 
-|Branch  |Debian Version      |Docker image tag|
-|--------|--------------------|----------------|
-|wheezy  |wheezy              |wheezy          |
-|squeeze |squeeze             |squeeze         |
+|Repo Branch  |Debian Version      |Docker image tag|
+|-------------|--------------------|----------------|
+|wheezy       |wheezy              |wheezy          |
+|squeeze      |squeeze             |squeeze         |
 
 The containers are generated on Ubuntu. In these containers, apt-get is configured for [Debian archive](http://archive.debian.org/) package repositories. You can view [Debian distribution archives](https://www.debian.org/distrib/archive.html).
 
