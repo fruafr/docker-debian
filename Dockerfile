@@ -12,10 +12,10 @@ RUN echo "deb http://archive.debian.org/debian wheezy-lts contrib main non-free"
 RUN echo "Acquire::Check-Valid-Until false;" > /etc/apt/apt.conf
 
 #Update, upgrade, clean
-RUN apt-get update && \
-    apt-get -y upgrade && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apt-get update
+RUN apt-get -y upgrade
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Set environment variables.
 ENV HOME /root
