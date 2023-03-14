@@ -27,4 +27,4 @@ WORKDIR /root
 VOLUME [ "/sys/fs/cgroup" ]
 
 # Define default command.
-CMD ["bash"]
+CMD ["/bin/bash"]
