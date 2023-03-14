@@ -1,5 +1,4 @@
-FROM debian:unstable
-
+FROM debian:jessie
 LABEL maintainer="David HEURTEVENT <david@heurtevent.org>"
 LABEL build_date="2023-03-14"
 
