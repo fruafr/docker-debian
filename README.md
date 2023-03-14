@@ -1,6 +1,6 @@
 # Base Debian distributions
 
-These containers are built from Debian base with the proper apt sources (normal or archive). No additional package is installed.
+These containers are built from Debian base with active apt sources (normal or archive). No additional package is installed.
 
 The Dockerfiles are available in the [fruafr/docker-debian Github repository](https://github.com/fruafr/docker-debian)
 
