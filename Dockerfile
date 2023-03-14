@@ -7,8 +7,8 @@ ENV container docker
 ENV DEBIAN_FRONTEND noninteractive
 
 #Add Apt
-RUN echo "deb http://archive.debian.org/debian squeeze contrib main non-free" > /etc/apt/sources.list
-RUN echo "deb http://archive.debian.org/debian squeeze-lts contrib main non-free" >> /etc/apt/sources.list
+RUN echo "deb http://archive.debian.org/debian/ squeeze contrib main non-free" >> /etc/apt/sources.list
+RUN echo "deb http://archive.debian.org/debian/ squeeze-lts contrib main non-free" >> /etc/apt/sources.list
 RUN echo "Acquire::Check-Valid-Until false;" > /etc/apt/apt.conf
 
 #Update, upgrade, clean
