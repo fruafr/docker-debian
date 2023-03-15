@@ -1,4 +1,4 @@
-# Base Debian distributions
+# Debian - Base distributions
 
 These containers are built from Debian base with active apt sources (normal or archive). No additional package is installed.
 
