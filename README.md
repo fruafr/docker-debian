@@ -60,7 +60,7 @@ docker run \
 - [Debian - Release page](https://www.debian.org/releases/)
 - [Debian - LTS](https://wiki.debian.org/fr/LTS)
 
-## Latest
+### Current
 
 |Debian Version      |Docker image tag                  |Current version |
 |--------------------|----------------------------------|----------------|
@@ -69,9 +69,9 @@ docker run \
 |testing             |`docker pull debian:testing`      |bookworm        |
 |stable              |`docker pull debian:stable`       |bullseye        |
 
-## Versions History
+### Versions History
 
-### Supported versions
+#### Supported versions
 
 |Year Released |Debian Version |Debian Number |Docker image tag              |Note                      |
 |--------------|---------------|--------------|------------------------------|--------------------------|
@@ -79,7 +79,7 @@ docker run \
 |2021          |bullseye       |Debian 10     |`docker pull debian:bullseye` |stable                    |
 |2019          |buster         |Debian 9      |`docker pull debian:buster`   |oldstable                 |
 
-### Obsolete versions 
+#### Obsolete versions 
 
 |Year Released |Debian Version      |Debian Number |Docker image tag              |Note                             |End of Life |
 |--------------|--------------------|--------------|------------------------------|---------------------------------|------------|
