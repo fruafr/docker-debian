@@ -4,7 +4,7 @@ These containers are built from Debian base with active apt sources (normal or a
 
 The Dockerfiles are available in the [fruafr/docker-debian Github repository](https://github.com/fruafr/docker-debian)
 
-The resulting docker containers are available in the [frua/debian Docker Hub](https://hub.docker.com/repository/docker/fruafr/debian)
+The resulting docker containers are available in the [fruafr/debian Docker Hub](https://hub.docker.com/repository/docker/fruafr/debian)
 
 [![debian build status](https://img.shields.io/docker/cloud/build/fruafr/debian.svg)](https://hub.docker.com/repository/docker/fruafr/debian)
 
