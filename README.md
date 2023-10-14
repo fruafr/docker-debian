@@ -14,25 +14,25 @@ The resulting docker containers are available in the [fruafr/debian Docker Hub](
 |--------------------|-----------------------------------------|----------------|--------------|
 |latest              |`docker pull fruafr/debian:latest`       |bullseye        |latest        |
 |unstable            |`docker pull fruafr/debian:unstable`     |sid             |unstable      |
-|testing             |`docker pull fruafr/debian:testing`      |bookworm        |testing       |
-|stable              |`docker pull fruafr/debian:stable`       |bullseye        |stable        | 
+|testing             |`docker pull fruafr/debian:testing`      |trixie          |testing       |
+|stable              |`docker pull fruafr/debian:stable`       |bookworm        |stable        | 
 
 ## Versions History
 
 ### Supported versions
 
-|Year Released |Debian Version |Debian Number |Docker image tag                     |Note                      |Repo Branch    |
-|--------------|---------------|--------------|-------------------------------------|--------------------------|---------------|
-|Next version  |bookworm       |Debian 11     |`docker pull fruafr/debian:bookworm` |testing                   |bookworm       |
-|2021          |bullseye       |Debian 10     |`docker pull fruafr/debian:bullseye` |stable                    |bullseye       |
-|2019          |buster         |Debian 9      |`docker pull fruafr/debian:buster`   |oldstable                 |buster         |
+|Year Released |Debian Version |Debian Number |Docker image tag                     |Note                      |Repo Branch    | End of Life |
+|--------------|---------------|--------------|-------------------------------------|--------------------------|---------------|------------|
+|2023          |bookworm       |Debian 12     |`docker pull fruafr/debian:bookworm` |stable                    |bookworm       |
+|2021          |bullseye       |Debian 11     |`docker pull fruafr/debian:bullseye` |oldstable                 |bullseye       |
+|2019          |buster         |Debian 10      |`docker pull fruafr/debian:buster`   |oldoldstable             |buster         | 2024-06
 
 ### Obsolete versions 
 
 |Year Released |Debian Version      |Debian Number |Docker image tag                     |Note                             |Repo Branch  |End of Life |
 |--------------|--------------------|--------------|-------------------------------------|---------------------------------|-------------|------------|
-|2017          |stretch        |Debian 8      |`docker pull fruafr/debian:stretch`  |oldoldstable with LTS     |stretch        | 2022-06 |
-|2015          |jessie         |Debian 7      |`docker pull fruafr/debian:jessie`   |archived version with LTS |jessie         | 2020-06 |
+|2017          |stretch             |Debian 9      |`docker pull fruafr/debian:stretch`  |archived with LTS     |stretch        | 2022-06 |
+|2015          |jessie              |Debian 8      |`docker pull fruafr/debian:jessie`   |archived version with LTS |jessie         | 2020-06 |
 |2013          |wheezy              |Debian 7      |`docker pull fruafr/debian:wheezy`   |Obsolete stable version          |wheezy       | 2018-05 |
 |2011          |squeeze             |Debian 6      |`docker pull fruafr/debian:squeeze`  |Obsolete stable version (6.0.10) |squeeze      | 2016-02 |
 
@@ -64,10 +64,10 @@ docker run \
 
 |Debian Version      |Docker image tag                  |Current version |
 |--------------------|----------------------------------|----------------|
-|latest              |`docker pull debian:latest`       |bullseye        |
+|latest              |`docker pull debian:latest`       |bookworm        |
 |unstable            |`docker pull debian:unstable`     |sid             |
-|testing             |`docker pull debian:testing`      |bookworm        |
-|stable              |`docker pull debian:stable`       |bullseye        |
+|testing             |`docker pull debian:testing`      |trixie        |
+|stable              |`docker pull debian:stable`       |bookworm        |
 
 ### Versions History
 
@@ -75,18 +75,18 @@ docker run \
 
 |Year Released |Debian Version |Debian Number |Docker image tag              |Note                      |
 |--------------|---------------|--------------|------------------------------|--------------------------|
-|Next version  |bookworm       |Debian 11     |`docker pull debian:bookworm` |testing                   |
-|2021          |bullseye       |Debian 10     |`docker pull debian:bullseye` |stable                    |
-|2019          |buster         |Debian 9      |`docker pull debian:buster`   |oldstable                 |
+|2023          |bookworm       |Debian 12     |`docker pull debian:bookworm` |stable                   |
+|2021          |bullseye       |Debian 11     |`docker pull debian:bullseye` |oldstable                    |
+|2019          |buster         |Debian 10      |`docker pull debian:buster`  |oldoldstable                 |
 
 #### Obsolete versions 
 
 |Year Released |Debian Version      |Debian Number |Docker image tag              |Note                             |End of Life |
 |--------------|--------------------|--------------|------------------------------|---------------------------------|------------|
-|2017          |stretch        |Debian 8      |`docker pull debian:stretch`  |oldoldstable with LTS     | 2022-06 |
+|2017          |stretch        |Debian 9     |`docker pull debian:stretch`  |oldoldstable with LTS     | 2022-06 |
 |2015          |jessie         |Debian 7      |`docker pull debian:jessie`   |archived version with LTS | 2020-06 |
 |2013          |wheezy              |Debian 7      |`docker pull debian:wheezy`   |Obsolete stable version          | 2018-05 |
 |2011          |squeeze             |Debian 6      |`docker pull debian:squeeze`  |Obsolete stable version (6.0.10) | 2016-02 |
 
 ----
-Updated : 2023-03-14
+Updated : 2023-10-14
