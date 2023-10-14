@@ -6,8 +6,6 @@ The Dockerfiles are available in the [fruafr/docker-debian Github repository](ht
 
 The resulting docker containers are available in the [fruafr/debian Docker Hub](https://hub.docker.com/repository/docker/fruafr/debian)
 
-[![debian build status](https://img.shields.io/docker/cloud/build/fruafr/debian.svg)](https://hub.docker.com/repository/docker/fruafr/debian)
-
 ## Current
 
 |Debian Version      |Docker image tag                         |Current Version |Repo Branch   |
